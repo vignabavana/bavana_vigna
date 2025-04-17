@@ -6,7 +6,7 @@ body{
 .portfolio_intro{
     width:1480px;
     height:510px;
-    background-image:url(/images/portfolio_background.jpg);
+    background-image:url(portfolio_background.jpg);
     background-size: cover;
     background-position: center ;
     display: flex; 
@@ -53,7 +53,7 @@ body{
     height:300px;
     width:300px;
     border-radius: 50%;
-    background-image: url(/images/vigna_bavana.jpeg);
+    background-image: url(vigna_bavana.jpeg);
     background-size:cover;
     background-position: center;
 }
@@ -106,7 +106,7 @@ justify-content: space-evenly;
     width:300px;
     align-self:end;
     border-radius: 50%;
-    background-image: url(/images/academic_qualifications.jpg);
+    background-image: url(academic_qualifications.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -119,7 +119,7 @@ justify-content: space-evenly;
 #work_experience_image{
     height:100%;
     width:25%;
-    background-image:url(/images/work_experience.jpeg);
+    background-image:url(work_experience.jpeg);
     background-size: cover;
     border:1px solid black
 }
@@ -148,7 +148,7 @@ justify-content: space-evenly;
 #project_pic{
     height:100%;
     width:25%;
-    background-image:url(/images/projects.jpg);
+    background-image:url(projects.jpg);
     background-size: cover;
     border:1px solid black
 }
@@ -165,7 +165,7 @@ justify-content: space-evenly;
 #reach_me_pic{
     height:100%;
     width:30%;
-    background-image:url(/images/reach_me.jpeg);
+    background-image:url(reach_me.jpeg);
     background-size:cover;
     border:1px solid black;   
     background-position: center;
@@ -198,7 +198,7 @@ a{
     height:300px;
     width:300px;
     border-radius: 50%;
-    background-image: url(/images/skills.webp);
+    background-image: url(skills.webp);
     background-size:cover;
     background-position: center;
 }
