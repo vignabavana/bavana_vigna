@@ -1,0 +1,219 @@
+body{
+    margin:10px 20px 10px 20px;
+    overflow-x: hidden;
+    /* margin-right: 100px;  */
+}
+.portfolio_intro{
+    width:1480px;
+    height:510px;
+    background-image:url(/images/portfolio_background.jpg);
+    background-size: cover;
+    background-position: center ;
+    display: flex; 
+    justify-content: end; 
+}
+#portfolio_intro_text{
+    height:250px;
+    width:55%;
+    align-self: center;
+    background-color:#6a7936;
+    border-top-left-radius:150px;
+    border-bottom-left-radius:150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    padding-top:15px;
+}
+#text1{
+    font-size:75px;
+    margin:0;
+}
+#text2{
+    font-size:45px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#text3{
+    margin-top:15px;
+    font-size: 35px;
+}
+/**/
+.about_me,.academic_education,.my_skills{
+    display: flex;
+    height:550px;
+    width:1480px;
+}
+.work_experience,.projects,.reach_me{
+    display: flex;
+    height:550px;
+    width:1480px; 
+    background-color:#6a7936;
+}
+#my_pic{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-image: url(/images/vigna_bavana.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+#about_me_info{
+width:80%;
+height:100%;
+background-color:#6a7936;
+box-sizing: border-box;
+border-top-right-radius:130px ;
+border-top-left-radius: 130px;
+padding:0 10px 10px 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.about_me_paras{
+    color:white;
+    display: inline;
+    font-size: 25px;
+}
+#tick_mark1,#tick_mark2,#tick_mark3{
+    color: darkblue;
+    font-size:30px;
+    opacity: 0.4;
+}
+#about_me_Heading,#academic_education_Heading,#my_skills_heading{
+    font-size:45px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color:white;
+    align-self:center;
+}
+
+#academic_education_info{
+    width:80%;
+    height:100%;
+    background-color:#6a7936;
+    box-sizing: border-box;
+    border-bottom-right-radius:130px ;
+    border-bottom-left-radius: 130px;
+    padding:0 10px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-evenly;
+
+}
+#academic_education_pic{
+    height:300px;
+    width:300px;
+    align-self:end;
+    border-radius: 50%;
+    background-image: url(/images/academic_qualifications.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.education_text{
+    color:white;
+    font-size: 25px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+#work_experience_image{
+    height:100%;
+    width:25%;
+    background-image:url(/images/work_experience.jpeg);
+    background-size: cover;
+    border:1px solid black
+}
+#work_experience_info{
+    width:75%;
+}
+#work_experience_heading{
+    font-size:45px;
+    color:white;
+    margin-left:30px;
+}
+.experience_text{
+    color:white;
+    font-size: 25px;
+    margin:0 0 5px 30px;
+}
+.projects{
+    display: flex;
+    height:550px;
+    width:1480px;
+    background-color: #6a7936;
+}
+#projects_info{
+    width:75%;
+}
+#project_pic{
+    height:100%;
+    width:25%;
+    background-image:url(/images/projects.jpg);
+    background-size: cover;
+    border:1px solid black
+}
+#projects_heading{
+    font-size:45px;
+    color:white;
+    margin-left:40px;
+}
+.projects_info_text{
+    color:white;
+    font-size:25px;
+    margin:0 15px 0 40px;
+}
+#reach_me_pic{
+    height:100%;
+    width:30%;
+    background-image:url(/images/reach_me.jpeg);
+    background-size:cover;
+    border:1px solid black;   
+    background-position: center;
+}
+#reach_me_info{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom:100px;
+}
+#reach_me_heading{
+    padding-left:55px;
+    color:white;
+    font-size:45px;
+}
+.my_contacts{
+    color:white;
+    font-size:30px;
+    margin-left:50px;
+}
+.fa-solid,.fa-brands{
+    margin-right:20px;
+}
+a{
+    color:greenyellow;
+    text-decoration: none;
+}
+#my_skills_pic{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-image: url(/images/skills.webp);
+    background-size:cover;
+    background-position: center;
+}
+#my_skills_info{
+    width:80%;
+    height:100%;
+    background-color:#6a7936;
+    box-sizing: border-box;
+    border-top-right-radius:130px ;
+    border-top-left-radius: 130px;
+    padding:0 10px 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.my_skills_text{
+    color:white;
+    font-size: 25px;   
+}
